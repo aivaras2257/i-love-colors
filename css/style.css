@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+}
+header h1{
+	background-color: red;
+	width: 50%;
+	height: 100px;
+}
+nav{
+	background-color: green;
+	width: 50%;
+	height: 100px;/*pagalvot poto r galima sujungti su header ir sumazint vietos*/
+
+
+}
+.container{
+	position:relative;
+	width: 100%;
+	line-height: 100px;
+	background-color: grey;
+}
+article{
+	background-color: blue;
+}
+h1,ul,h2,p{
+	margin: 0;
+}
+nav ul li{
+	display: inline-block;
+	margin: 10px;
+}
